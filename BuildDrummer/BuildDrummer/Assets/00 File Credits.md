@@ -1,4 +1,4 @@
-File Credits
+# File Credits
 
 Drum kit image:
 Pete Brown (pete.brown@microsoft.com)
