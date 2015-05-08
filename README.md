@@ -16,3 +16,5 @@ For more details on AudioGraph, see:
 Build 2015 session: http://channel9.msdn.com/Events/Build/2015/3-634
 
 Official AudioGraph sample: https://github.com/Microsoft/Windows-universal-samples/tree/master/audiocreation
+
+Jason's Media contrib project: https://github.com/jolson88/media-contrib
