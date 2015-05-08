@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="BuildDrummer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BuildDrummer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+    
+    <Page.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#FFFFFFFF" />
+            <GradientStop Offset="0.5" Color="#FFFFFFFF" />
+            <GradientStop Offset="1" Color="#FFD0D0D0" />
+        </LinearGradientBrush>
+    </Page.Background>
+
+    <Viewbox>
+        <Grid Width="1920" Height="1080">
+            <!-- To see hit areas, change both colors to #20FF0000 -->
+            <Grid.Resources>
+                <Style TargetType="Ellipse">
+                    <Setter Property="Fill" Value="#00FF0000" />
+                </Style>
+                <Style TargetType="Rectangle">
+                    <Setter Property="Fill" Value="#00FF0000" />
+                </Style>
+            </Grid.Resources>
+
+            <Image Source="/Assets/pmb_build2015_drum_kit.png" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="/Assets/pmb_build_drummer.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            </Grid>
+
+            <Canvas>
+
+                <Ellipse x:Name="HighHatOpen" Width="211" Height="211" Canvas.Top="516" Canvas.Left="560" PointerPressed="HighHatOpen_PointerPressed" RenderTransformOrigin="0.399,-1.758" />
+                <Ellipse x:Name="HighHatClosed" Width="132" Height="185" Canvas.Top="688" Canvas.Left="704" PointerPressed="HighHatClosed_PointerPressed" />
+
+                <Ellipse x:Name="BassDrum" Width="188" Height="257" Canvas.Left="1040" Canvas.Top="531" PointerPressed="BassDrum_PointerPressed" />
+                <Ellipse x:Name="TomLow" Width="294" Height="294" Canvas.Left="1285" Canvas.Top="560" PointerPressed="TomLow_PointerPressed" RenderTransformOrigin="0.693,0.05" />
+                <Ellipse x:Name="TomMid" Width="225" Height="225" Canvas.Left="1121" Canvas.Top="301" PointerPressed="TomMid_PointerPressed" />
+                <Ellipse x:Name="TomHigh" Width="195" Height="203" Canvas.Left="902" Canvas.Top="343" PointerPressed="TomHigh_PointerPressed"/>
+                <Ellipse x:Name="Snare" Width="198" Height="198" Canvas.Left="821" Canvas.Top="581" PointerPressed="Snare_PointerPressed"/>
+                <Ellipse x:Name="CrashCymbal" Width="344" Height="344" Canvas.Left="1361" Canvas.Top="202" PointerPressed="CrashCymbal_PointerPressed"/>
+                <Ellipse x:Name="CrashCymbal2" Width="297" Height="297" Canvas.Left="622" Canvas.Top="174" PointerPressed="CrashCymbal_PointerPressed"/>
+            </Canvas>
+
+            <Grid x:Name="GuggsGroup" Opacity="0.0" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <Grid.Resources>
+                    <Storyboard x:Key="ShowGuggs" Storyboard.TargetName="GuggsGroup" Storyboard.TargetProperty="Opacity">
+                        <DoubleAnimationUsingKeyFrames>
+                            <DiscreteDoubleKeyFrame KeyTime="0:0:0" Value="0.0" />
+                            <DiscreteDoubleKeyFrame KeyTime="0:0:2" Value="0.0" />
+                            <EasingDoubleKeyFrame KeyTime="0:0:3" Value="1.0" />
+                        </DoubleAnimationUsingKeyFrames>
+                    </Storyboard>
+                </Grid.Resources>
+
+                <Image x:Name="Guggs" 
+                       Source="/Assets/steven_guggenheimer_cutout.png" 
+                       Grid.Row="1"
+                       Stretch="None"
+                       VerticalAlignment="Bottom" 
+                       IsHitTestVisible="False"
+                       Margin="-50,0,0,0"
+                       HorizontalAlignment="Left"/>
+
+                <Ellipse x:Name="GuggsHead" Canvas.Left="413" Canvas.Top="238" PointerPressed="Steve_PointerPressed" Margin="91,0,189,0"/>
+                <Rectangle x:Name="GuggsBody" Canvas.Left="413" Canvas.Top="238" PointerPressed="Steve_PointerPressed" Margin="0,285,58,0"/>
+            </Grid>
+
+        </Grid>
+    </Viewbox>
+</Page>

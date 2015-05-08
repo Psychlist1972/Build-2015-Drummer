@@ -1,0 +1,1 @@
+D:\AudioBuildDemos\BuildDrummer\BuildDrummer\BuildDrummer.csproj;x86

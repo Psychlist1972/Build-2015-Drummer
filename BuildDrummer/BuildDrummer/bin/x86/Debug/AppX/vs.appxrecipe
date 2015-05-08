@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC</Machine>
+    <WindowsUser>John</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>a2912cea-46a2-4481-bc3f-3f977f6b667f</PackageIdentityName>
+    <IntermediateOutputPath>D:\AudioBuildDemos\BuildDrummer\BuildDrummer\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3703E3C23991CA385FF0B5C5A27EC38C653532488D911B0A2D1C9F32F59A320A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a2912cea-46a2-4481-bc3f-3f977f6b667f_1.0.0.0_x86__v2eq8qs7wm15j</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a2912cea-46a2-4481-bc3f-3f977f6b667f_v2eq8qs7wm15j!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a2912cea-46a2-4481-bc3f-3f977f6b667f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=John</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-22T03:21:20.892</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-04-22T01:19:32.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\aka_guggs.wav">
+      <PackagePath>Assets\aka_guggs.wav</PackagePath>
+      <Modified>2015-04-22T03:10:03.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\ayy_guggs.wav">
+      <PackagePath>Assets\ayy_guggs.wav</PackagePath>
+      <Modified>2015-04-22T03:12:22.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Cowbell.wav">
+      <PackagePath>Assets\Cowbell.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\developer_loud.wav">
+      <PackagePath>Assets\developer_loud.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Bass.wav">
+      <PackagePath>Assets\Drum-Bass.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Closed-Hi-Hat.wav">
+      <PackagePath>Assets\Drum-Closed-Hi-Hat.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Crash-Cymbal.wav">
+      <PackagePath>Assets\Drum-Crash-Cymbal.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Floor-Tom.wav">
+      <PackagePath>Assets\Drum-Floor-Tom.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-High-Tom.wav">
+      <PackagePath>Assets\Drum-High-Tom.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Mid-Tom.wav">
+      <PackagePath>Assets\Drum-Mid-Tom.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Open-Hi-Hat.wav">
+      <PackagePath>Assets\Drum-Open-Hi-Hat.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Ride-Cymbal.wav">
+      <PackagePath>Assets\Drum-Ride-Cymbal.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Shaker.wav">
+      <PackagePath>Assets\Drum-Shaker.wav</PackagePath>
+      <Modified>2015-04-22T01:20:18.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Drum-Snare.wav">
+      <PackagePath>Assets\Drum-Snare.wav</PackagePath>
+      <Modified>2015-04-22T01:20:03.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\drum_kit.jpg">
+      <PackagePath>Assets\drum_kit.jpg</PackagePath>
+      <Modified>2015-04-22T02:21:34.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Groove-Final-short.wav">
+      <PackagePath>Assets\Groove-Final-short.wav</PackagePath>
+      <Modified>2015-04-22T03:18:16.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\guggs_have_fun_and_learn.wav">
+      <PackagePath>Assets\guggs_have_fun_and_learn.wav</PackagePath>
+      <Modified>2015-04-22T03:00:42.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-04-01T01:35:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\Nadella2_print.jpg">
+      <PackagePath>Assets\Nadella2_print.jpg</PackagePath>
+      <Modified>2015-04-22T02:41:18.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\satya_fantastic.wav">
+      <PackagePath>Assets\satya_fantastic.wav</PackagePath>
+      <Modified>2015-04-22T01:20:03.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-04-01T01:35:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-04-01T01:35:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\steveguggenheimer.png">
+      <PackagePath>Assets\steveguggenheimer.png</PackagePath>
+      <Modified>2015-04-22T02:47:26.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-04-01T01:35:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2015-04-01T01:35:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\BuildDrummer.csproj.AppLocalNetFX.GenerateResource.Cache">
+      <PackagePath>BuildDrummer.csproj.AppLocalNetFX.GenerateResource.Cache</PackagePath>
+      <Modified>2015-04-22T01:19:34.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\BuildDrummer.exe">
+      <PackagePath>BuildDrummer.exe</PackagePath>
+      <Modified>2015-04-22T03:21:20.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\BuildDrummer.xr.xml">
+      <PackagePath>BuildDrummer.xr.xml</PackagePath>
+      <Modified>2015-04-22T02:44:39.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\CoreRuntime\BuildDrummer.exe">
+      <PackagePath>CoreRuntime\BuildDrummer.exe</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Internal.Net.dll">
+      <PackagePath>Internal.Net.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Internal.Uri.dll">
+      <PackagePath>Internal.Uri.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2015-04-22T01:17:54.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2015-04-22T01:17:58.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2015-04-22T01:17:56.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <PackagePath>Microsoft.Diagnostics.Tracing.EventSource.dll</PackagePath>
+      <Modified>2015-04-22T01:17:53.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-04-22T01:17:51.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-22T03:21:21.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-04-22T01:18:04.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-04-22T01:18:04.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Resources.ResourceWriter.dll">
+      <PackagePath>System.Resources.ResourceWriter.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.DeriveBytes.dll">
+      <PackagePath>System.Security.Cryptography.DeriveBytes.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.Encryption.Aes.dll">
+      <PackagePath>System.Security.Cryptography.Encryption.Aes.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.Encryption.dll">
+      <PackagePath>System.Security.Cryptography.Encryption.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.Hashing.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Hashing.Algorithms.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.Hashing.dll">
+      <PackagePath>System.Security.Cryptography.Hashing.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Cryptography.RandomNumberGenerator.dll">
+      <PackagePath>System.Security.Cryptography.RandomNumberGenerator.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.XPath.dll">
+      <PackagePath>System.Xml.XPath.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.XPath.XDocument.dll">
+      <PackagePath>System.Xml.XPath.XDocument.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\System.Xml.XPath.XmlDocument.dll">
+      <PackagePath>System.Xml.XPath.XmlDocument.dll</PackagePath>
+      <Modified>2015-04-13T10:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\AudioBuildDemos\BuildDrummer\BuildDrummer\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-04-19T07:46:35.987</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.22802.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.22802.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
