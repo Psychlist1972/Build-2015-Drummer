@@ -1,7 +1,7 @@
 # Build-2015-Drummer
 Low-latency audio drum sample from Build 2015 Day 2 keynote
 
-Example from John Shewchuk's demo in the Day 2 keynote for Build 2015. This shows how to use the new low-latency-optimized AudioGraph API to load drum samples and play them back through a C#/XAML app.
+Example from John Shewchuk's demo in the Day 2 keynote for Build 2015. This shows how to use the new Windows 10 low-latency-optimized AudioGraph API to load drum samples and play them back through a C#/XAML app.
 
 Recommendations for your own further investigation:
 - Add in effects like echo and reverb, with user-controllable parameters
