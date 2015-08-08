@@ -9,7 +9,7 @@ Recommendations for your own further investigation:
 
 Note: At the time of this commit, audio latency characteristics vary considerably between different PCs. Surface Pro 3 is quite good as are most other PCs using the same chipset. Your mileage will vary based upon the build of Windows and the availability of updated low-latency audio drivers.
 
-Note 2: On the Build preview version of Windows, there are some devices where the attack for the sample gets cut off giving the sound a mushy reverb-tail like quality. This is a known bug that will be fixed for Windows 10 RTM.
+Note 2: On the Build preview version of Windows, there were some devices where the attack for the sample were cut off giving the sound a mushy reverb-tail like quality. This is a known bug that was fixed for Windows 10 RTM.
 
 For more details on AudioGraph, see:
 
